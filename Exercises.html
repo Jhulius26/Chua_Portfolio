@@ -102,7 +102,7 @@
 
     function loadActivity(index) {
       frame.src = activities[index];
-      indicator.textContent = `Activity ${index + 1} of ${activities.length}`;
+      indicator.textContent = `Exercise ${index + 1} of ${activities.length}`;
       prevBtn.disabled = index === 0;
       nextBtn.disabled = index === activities.length - 1;
     }
