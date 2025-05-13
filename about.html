@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="sidebar">
+
+        <div class="profile">
+            <img src="Resources/profile.png" alt="My Profile" class="profile-img">
+        </div>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/julius.alison.guzman.chua" target="_fbprofile">
+                <img src="Resources/facebook.svg" alt="Facebook Icon" class="icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="Resources/xtwitter.svg" alt="Twitter Icon" class="icon">
+            </a>
+        </div>
+        <div class="dropdown">
+            <select id="activityDropdown" class="dropdown-select" onchange="navigateToPage()">
+            <option value="">Activity/Exercise</option>
+            <option value="Laboratories.html">Laboratories</option>
+            <option value="Exercises.html">Exercises</option>
+            <option value="Exercises Codes.html">Exercises Code</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="about-content">
+            <h1>About Me</h1>
+            <p>What things you should know about me.</p>
+        </div>
+        <div class="content-container">
+            <div class="about-content1">
+                <img src="Resources/about-pic.png" alt="About-image" class="about-image">
+            </div>
+            <div class="about-content2">
+                <h1>So, who am I?</h1>
+                <p>
+                    I'm a student, a son, a brother, a grandson, and a friend. My mission is to accomplish things that I want in life.
+                    <br><br>
+                    I believe there is somethings you can do but others don't, and there is somethings you can't do but others can.
+                    So help each other so both of you will learn and accomplish together.
+                </p>
+            </div>
+            <div class="about-content3">
+                <img src="Resources/about-chuapic.png" alt="About-image1" class="about-image1">
+            </div>
+            <div class="about-content4">
+            </div>
+        </div>
+    </div>
+
+    <script src="myscript.js"></script>
+
+</body>
+</html>

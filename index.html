@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile">
+            <img src="Resources/profile.png" alt="My Profile" class="profile-img">
+        </div>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/julius.alison.guzman.chua" target="_fbprofile">
+                <img src="Resources/facebook.svg" alt="Facebook Icon" class="icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="Resources/xtwitter.svg" alt="Twitter Icon" class="icon">
+            </a>
+        </div>
+        <label for="labact"></label>
+        <div class="dropdown">
+            <select id="activityDropdown" class="dropdown-select" onchange="navigateToPage()">
+            <option value="">Activity/Exercise</option>
+            <option value="Laboratories.html">Laboratories</option>
+            <option value="Exercises.html">Exercises</option>
+            <option value="Exercises Codes.html">Exercises Code</option>
+            </select>
+        </div>
+    </div>
+    <div class="content">
+    <div class="content-body">
+        <img src="Resources/HProfile.png" alt="Home Profile" class="home-profile">
+        <h2>Hello I'm</h2>
+        <h3>Julius Alison Guzman Chua</h3>
+        <p>A student of Aurora State College of Technology, pursuing Bachelor of Science in Information Technology 
+            specialized in Application Programming. Still a beginner and need a lot to learn more and believe what you can do
+            and learn if you can't do it.
+        </p>
+    </div>
+    </div>
+
+    <script src="myscript.js"></script>
+</body>
+</html>

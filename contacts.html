@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="sidebar">
+
+        <div class="profile">
+            <img src="Resources/profile.png" alt="My Profile" class="profile-img">
+        </div>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/julius.alison.guzman.chua" target="_fbprofile">
+                <img src="Resources/facebook.svg" alt="Facebook Icon" class="icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="Resources/xtwitter.svg" alt="Twitter Icon" class="icon">
+            </a>
+        </div>
+        <div class="dropdown">
+            <select id="activityDropdown" class="dropdown-select" onchange="navigateToPage()">
+            <option value="">Activity/Exercise</option>
+            <option value="Laboratories.html">Laboratories</option>
+            <option value="Exercises.html">Exercises</option>
+            <option value="Exercises Codes.html">Exercises Code</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="contact-content">
+            <h1>My Contacts</h1>
+            <p>If you want to chat just contact me.</p>
+        </div>
+        <div class="content-container">
+            <div class="hobbies-content1">
+                <h1>My Contact Info</h1>
+                <table>
+                    <tr>
+                        <th>Email</th>
+                        <td>jhubitter@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <th>Phone Number</th>
+                        <td>+63 961 550 0468</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="contact-content2">
+                <h1>My Address</h1>
+                <table>
+                    <tr>
+                    <td>175, Mijares St. Barangay 04 Poblacion</td>
+                    </tr>
+                    <tr>
+                    <td>San Luis, Aurora</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
